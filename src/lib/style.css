@@ -1,0 +1,23 @@
+
+.e-btn{
+    border: none;
+    border-radius: 1px;
+}
+.e-btn-primary {
+    background: linear-gradient(136.17deg, #1E90FF 0%, #000080 98.04%) !important;
+    color: white;
+
+}
+
+.big{
+    font-size: 40px;
+}
+
+.e-success{
+    background: greenyellow;
+}
+
+.e-success:focus{
+    background: rgb(103, 155, 24);
+}
+
