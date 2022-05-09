@@ -8,3 +8,16 @@
     color: white;
 
 }
+
+.big{
+    font-size: 40px;
+}
+
+.e-success{
+    background: greenyellow;
+}
+
+.e-success:focus{
+    background: rgb(103, 155, 24);
+}
+

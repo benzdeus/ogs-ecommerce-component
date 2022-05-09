@@ -12,7 +12,7 @@ function App() {
   }
   return <div >
     <Button onClick={handleOnClick} text="test" type="primary"   />
-    <Input onChange={handleOnChange} />
+    <Input max={2} width={1} borderColor="#83AEFF" onChange={handleOnChange} size={"big"} background={"success"} />
     
   </div>;
 }
