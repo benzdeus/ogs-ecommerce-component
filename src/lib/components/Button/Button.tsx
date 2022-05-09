@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
-  return <button className={props?.type === "success" ? "btn-success" : "btn-danger"}>{props?.text}</button>;
+  return <button className={props?.type === "primary" ? "e-btn-success" : ""}>{props?.text}</button>;
 };
 
 export default Button;
