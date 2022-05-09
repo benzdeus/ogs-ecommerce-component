@@ -1,9 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import {Button,Input} from "./lib/index"
 
 function App() {
-  return <div className="App">Hello Worldccc</div>;
+  const handleOnClick = ()=>{
+    alert("test")
+  }
+
+  const handleOnChange = (e) =>{
+    console.log(e.target.value)
+  }
+  return <div >
+    <Button onClick={handleOnClick} text="test" type="primary"   />
+    <Input onChange={handleOnChange} />
+    
+  </div>;
 }
 
 export default App;

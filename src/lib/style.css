@@ -1,0 +1,10 @@
+
+.e-btn{
+    border: none;
+    border-radius: 1px;
+}
+.e-btn-primary {
+    background: linear-gradient(136.17deg, #1E90FF 0%, #000080 98.04%) !important;
+    color: white;
+
+}
